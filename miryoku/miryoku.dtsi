@@ -58,4 +58,4 @@ MIRYOKU_LAYER_LIST
   #include "miryoku_behaviors.dtsi"
 #endif
 
-#include "miryoku_custom_combos.dtsi"
+#include "custom_combos.dtsi"
