@@ -56,29 +56,3 @@ MIRYOKU_X(MOUSE,  "Mouse")
 #define U_NAV    7
 #define U_FUN    8
 #define U_MOUSE  9
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&kp ESC>;
-         };
-        combo_bspc {
-            timeout-ms = <50>;
-            key-positions = <7 8>;
-            bindings = <&kp BSPC>;
-        };
-        combo_dot_comma {
-            timeout-ms = <50>;
-            key-positions = <27 28>;
-            bindings = <&kp SEMICOLON>;
-        };
-        combo_del {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp DEL>;
-        };
-    };
-};
