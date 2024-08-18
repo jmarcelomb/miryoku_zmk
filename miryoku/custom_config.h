@@ -1,6 +1,11 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#pragma once
+
+#include "miryoku_babel/miryoku_layer_selection.h"
+#include "miryoku_babel/miryoku_layer_list.h"
+
 #define MIRYOKU_LAYER_FUN MIRYOKU_ALTERNATIVES_FUN_FLIP
 #define MIRYOKU_LAYER_MOUSE MIRYOKU_ALTERNATIVES_MOUSE_FLIP
 
