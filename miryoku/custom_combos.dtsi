@@ -10,6 +10,9 @@ customcombo_##LAYER##_##POSITION1##_##POSITION2 { \
 / {
   combos {
     compatible = "zmk,combos";
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 1, 2, &kp ESC)
     MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 7, 8, &kp BSPC)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 8, 9, &kp DEL)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 27, 28, &kp SEMICOLON)
   };
 };
