@@ -1,8 +1,8 @@
 #define MIRYOKU_CUSTOM_COMBOS_TERM 50
-#define MIRYOKU_CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
-customcombo_ ## LAYER ## _ ## POSITION { \
+#define MIRYOKU_CUSTOM_COMBOS_MACRO(LAYER, POSITION1, POSITION2, BINDING) \
+customcombo_##LAYER##_##POSITION1##_##POSITION2 { \
   layers = <LAYER>; \
-  key-positions = <POSITION>; \
+  key-positions = <POSITION1 POSITION2>; \
   bindings = <BINDING>; \
   timeout-ms = <MIRYOKU_CUSTOM_COMBOS_TERM>; \
 };
@@ -10,6 +10,6 @@ customcombo_ ## LAYER ## _ ## POSITION { \
 / {
   combos {
     compatible = "zmk,combos";
-    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 7 8, &kp BSPC)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, 7, 8, &kp BSPC)
   };
 };
