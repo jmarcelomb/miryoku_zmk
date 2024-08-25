@@ -5,7 +5,7 @@ added the [build-sweep-nice_nano_v2.yml](.github/workflows/build-sweep-nice_nano
   <img width="460" src="docs/quickstart/images/sweep_us_layout.svg">
 </p>
 
-Portuese Layout:
+Portuguese Layout:
 
 <p align="center">
   <img width="460" src="docs/quickstart/images/sweep_pt_layout.svg">
